@@ -1,6 +1,11 @@
 {
-  "devDependencies": {
-    "@getgauge/cli": "^1.5.1",
+  "name": "TestAutomationUsingTaikoAndGaugeUsingJavascript",
+  "description": "Test Automation Using Taiko And Gauge Using Javascript",
+  "scripts": {
+    "test": "gauge run specs/"
+  },
+  "dependencies": {
+    "@getgauge/cli": "^1.5.2",
     "taiko": "^1.3.10"
   }
 }
